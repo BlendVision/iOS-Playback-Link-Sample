@@ -1,0 +1,83 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BVPlaybackLink
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol BVEvent {
+  var timestamp: Foundation.TimeInterval { get }
+  var name: BVPlaybackLink.BVEventName { get }
+}
+public enum BVEventName {
+  case unknown
+  case sessionError
+  case sessionStatus(status: BVPlaybackLink.BVSessionStatus)
+}
+public enum BVSessionStatus {
+  case didGetContentInfo(content: BVPlaybackLink.ContentMetadata)
+  case didStartSessionSuccess
+  case didStopSessionSuccess
+  case heartbeatSuccess
+}
+public struct ContentMetadata {
+  public let resourceID: Swift.String
+  public let resourceType: Swift.String
+}
+@_hasMissingDesignatedInitializers public class BVSessionManager {
+  public static let shared: BVPlaybackLink.BVSessionManager
+  public var playbackToken: Swift.String? {
+    get
+  }
+  public func updatePlaybackToken(_ token: Swift.String?)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getResourceInfo() async throws -> BVPlaybackLink.ContentMetadata
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func startPlaybackSession() async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func endPlaybackSession() async throws
+  #endif
+  public func release()
+  @objc deinit
+}
+extension BVPlaybackLink.BVSessionManager {
+  public func add(listener: any BVPlaybackLink.BVSessionListener)
+  public func remove(listener: any BVPlaybackLink.BVSessionListener)
+}
+@_hasMissingDesignatedInitializers public class BVSessionEvent : BVPlaybackLink.BVEvent {
+  final public let timestamp: Foundation.TimeInterval
+  public var name: BVPlaybackLink.BVEventName {
+    get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class BVSessionErrorEvent : BVPlaybackLink.BVSessionEvent {
+  override public var name: BVPlaybackLink.BVEventName {
+    get
+  }
+  public var error: (any Swift.Error)?
+  public var errorCode: Swift.Int?
+  public var message: Swift.String? {
+    get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class BVSessionStatusEvent : BVPlaybackLink.BVSessionEvent {
+  final public let status: BVPlaybackLink.BVSessionStatus
+  override public var name: BVPlaybackLink.BVEventName {
+    get
+  }
+  public init(status: BVPlaybackLink.BVSessionStatus)
+  @objc deinit
+}
+public struct BVPlaybackServerError : Swift.Error, Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol BVSessionListener : ObjectiveC.NSObjectProtocol {
+  func sessionManager(_ manager: BVPlaybackLink.BVSessionManager, didReceiveErrorEvent event: BVPlaybackLink.BVSessionErrorEvent)
+  func sessionManager(_ manager: BVPlaybackLink.BVSessionManager, statusEvent event: BVPlaybackLink.BVSessionStatusEvent)
+}

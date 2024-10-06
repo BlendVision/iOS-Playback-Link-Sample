@@ -1,0 +1,2012 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVEvent",
+        "printedName": "BVEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink7BVEventP9timestampSdvp",
+            "mangledName": "$s14BVPlaybackLink7BVEventP9timestampSdvp",
+            "moduleName": "BVPlaybackLink",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink7BVEventP9timestampSdvg",
+                "mangledName": "$s14BVPlaybackLink7BVEventP9timestampSdvg",
+                "moduleName": "BVPlaybackLink",
+                "genericSig": "<τ_0_0 where τ_0_0 : BVPlaybackLink.BVEvent>",
+                "sugared_genericSig": "<Self where Self : BVPlaybackLink.BVEvent>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BVEventName",
+                "printedName": "BVPlaybackLink.BVEventName",
+                "usr": "s:14BVPlaybackLink11BVEventNameO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink7BVEventP4nameAA0C4NameOvp",
+            "mangledName": "$s14BVPlaybackLink7BVEventP4nameAA0C4NameOvp",
+            "moduleName": "BVPlaybackLink",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVEventName",
+                    "printedName": "BVPlaybackLink.BVEventName",
+                    "usr": "s:14BVPlaybackLink11BVEventNameO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink7BVEventP4nameAA0C4NameOvg",
+                "mangledName": "$s14BVPlaybackLink7BVEventP4nameAA0C4NameOvg",
+                "moduleName": "BVPlaybackLink",
+                "genericSig": "<τ_0_0 where τ_0_0 : BVPlaybackLink.BVEvent>",
+                "sugared_genericSig": "<Self where Self : BVPlaybackLink.BVEvent>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14BVPlaybackLink7BVEventP",
+        "mangledName": "$s14BVPlaybackLink7BVEventP",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVEventName",
+        "printedName": "BVEventName",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BVPlaybackLink.BVEventName.Type) -> BVPlaybackLink.BVEventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVEventName",
+                    "printedName": "BVPlaybackLink.BVEventName",
+                    "usr": "s:14BVPlaybackLink11BVEventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BVPlaybackLink.BVEventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVEventName",
+                        "printedName": "BVPlaybackLink.BVEventName",
+                        "usr": "s:14BVPlaybackLink11BVEventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BVPlaybackLink11BVEventNameO7unknownyA2CmF",
+            "mangledName": "$s14BVPlaybackLink11BVEventNameO7unknownyA2CmF",
+            "moduleName": "BVPlaybackLink"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionError",
+            "printedName": "sessionError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BVPlaybackLink.BVEventName.Type) -> BVPlaybackLink.BVEventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVEventName",
+                    "printedName": "BVPlaybackLink.BVEventName",
+                    "usr": "s:14BVPlaybackLink11BVEventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BVPlaybackLink.BVEventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVEventName",
+                        "printedName": "BVPlaybackLink.BVEventName",
+                        "usr": "s:14BVPlaybackLink11BVEventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BVPlaybackLink11BVEventNameO12sessionErroryA2CmF",
+            "mangledName": "$s14BVPlaybackLink11BVEventNameO12sessionErroryA2CmF",
+            "moduleName": "BVPlaybackLink"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionStatus",
+            "printedName": "sessionStatus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BVPlaybackLink.BVEventName.Type) -> (BVPlaybackLink.BVSessionStatus) -> BVPlaybackLink.BVEventName",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BVPlaybackLink.BVSessionStatus) -> BVPlaybackLink.BVEventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVEventName",
+                        "printedName": "BVPlaybackLink.BVEventName",
+                        "usr": "s:14BVPlaybackLink11BVEventNameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(status: BVPlaybackLink.BVSessionStatus)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BVSessionStatus",
+                            "printedName": "BVPlaybackLink.BVSessionStatus",
+                            "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BVPlaybackLink.BVEventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVEventName",
+                        "printedName": "BVPlaybackLink.BVEventName",
+                        "usr": "s:14BVPlaybackLink11BVEventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BVPlaybackLink11BVEventNameO13sessionStatusyAcA09BVSessionF0O_tcACmF",
+            "mangledName": "$s14BVPlaybackLink11BVEventNameO13sessionStatusyAcA09BVSessionF0O_tcACmF",
+            "moduleName": "BVPlaybackLink"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14BVPlaybackLink11BVEventNameO",
+        "mangledName": "$s14BVPlaybackLink11BVEventNameO",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVSessionStatus",
+        "printedName": "BVSessionStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "didGetContentInfo",
+            "printedName": "didGetContentInfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BVPlaybackLink.BVSessionStatus.Type) -> (BVPlaybackLink.ContentMetadata) -> BVPlaybackLink.BVSessionStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BVPlaybackLink.ContentMetadata) -> BVPlaybackLink.BVSessionStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVSessionStatus",
+                        "printedName": "BVPlaybackLink.BVSessionStatus",
+                        "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(content: BVPlaybackLink.ContentMetadata)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContentMetadata",
+                            "printedName": "BVPlaybackLink.ContentMetadata",
+                            "usr": "s:14BVPlaybackLink15ContentMetadataV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BVPlaybackLink.BVSessionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVSessionStatus",
+                        "printedName": "BVPlaybackLink.BVSessionStatus",
+                        "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BVPlaybackLink15BVSessionStatusO17didGetContentInfoyAcA0G8MetadataV_tcACmF",
+            "mangledName": "$s14BVPlaybackLink15BVSessionStatusO17didGetContentInfoyAcA0G8MetadataV_tcACmF",
+            "moduleName": "BVPlaybackLink"
+          },
+          {
+            "kind": "Var",
+            "name": "didStartSessionSuccess",
+            "printedName": "didStartSessionSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BVPlaybackLink.BVSessionStatus.Type) -> BVPlaybackLink.BVSessionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVSessionStatus",
+                    "printedName": "BVPlaybackLink.BVSessionStatus",
+                    "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BVPlaybackLink.BVSessionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVSessionStatus",
+                        "printedName": "BVPlaybackLink.BVSessionStatus",
+                        "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BVPlaybackLink15BVSessionStatusO22didStartSessionSuccessyA2CmF",
+            "mangledName": "$s14BVPlaybackLink15BVSessionStatusO22didStartSessionSuccessyA2CmF",
+            "moduleName": "BVPlaybackLink"
+          },
+          {
+            "kind": "Var",
+            "name": "didStopSessionSuccess",
+            "printedName": "didStopSessionSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BVPlaybackLink.BVSessionStatus.Type) -> BVPlaybackLink.BVSessionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVSessionStatus",
+                    "printedName": "BVPlaybackLink.BVSessionStatus",
+                    "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BVPlaybackLink.BVSessionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVSessionStatus",
+                        "printedName": "BVPlaybackLink.BVSessionStatus",
+                        "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BVPlaybackLink15BVSessionStatusO21didStopSessionSuccessyA2CmF",
+            "mangledName": "$s14BVPlaybackLink15BVSessionStatusO21didStopSessionSuccessyA2CmF",
+            "moduleName": "BVPlaybackLink"
+          },
+          {
+            "kind": "Var",
+            "name": "heartbeatSuccess",
+            "printedName": "heartbeatSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BVPlaybackLink.BVSessionStatus.Type) -> BVPlaybackLink.BVSessionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVSessionStatus",
+                    "printedName": "BVPlaybackLink.BVSessionStatus",
+                    "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BVPlaybackLink.BVSessionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BVSessionStatus",
+                        "printedName": "BVPlaybackLink.BVSessionStatus",
+                        "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BVPlaybackLink15BVSessionStatusO16heartbeatSuccessyA2CmF",
+            "mangledName": "$s14BVPlaybackLink15BVSessionStatusO16heartbeatSuccessyA2CmF",
+            "moduleName": "BVPlaybackLink"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14BVPlaybackLink15BVSessionStatusO",
+        "mangledName": "$s14BVPlaybackLink15BVSessionStatusO",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContentMetadata",
+        "printedName": "ContentMetadata",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "resourceID",
+            "printedName": "resourceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink15ContentMetadataV10resourceIDSSvp",
+            "mangledName": "$s14BVPlaybackLink15ContentMetadataV10resourceIDSSvp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink15ContentMetadataV10resourceIDSSvg",
+                "mangledName": "$s14BVPlaybackLink15ContentMetadataV10resourceIDSSvg",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resourceType",
+            "printedName": "resourceType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink15ContentMetadataV12resourceTypeSSvp",
+            "mangledName": "$s14BVPlaybackLink15ContentMetadataV12resourceTypeSSvp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink15ContentMetadataV12resourceTypeSSvg",
+                "mangledName": "$s14BVPlaybackLink15ContentMetadataV12resourceTypeSSvg",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14BVPlaybackLink15ContentMetadataV",
+        "mangledName": "$s14BVPlaybackLink15ContentMetadataV",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVSessionManager",
+        "printedName": "BVSessionManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionManager",
+                "printedName": "BVPlaybackLink.BVSessionManager",
+                "usr": "s:14BVPlaybackLink16BVSessionManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC6sharedACvpZ",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC6sharedACvpZ",
+            "moduleName": "BVPlaybackLink",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVSessionManager",
+                    "printedName": "BVPlaybackLink.BVSessionManager",
+                    "usr": "s:14BVPlaybackLink16BVSessionManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink16BVSessionManagerC6sharedACvgZ",
+                "mangledName": "$s14BVPlaybackLink16BVSessionManagerC6sharedACvgZ",
+                "moduleName": "BVPlaybackLink",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playbackToken",
+            "printedName": "playbackToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC13playbackTokenSSSgvp",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC13playbackTokenSSSgvp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink16BVSessionManagerC13playbackTokenSSSgvg",
+                "mangledName": "$s14BVPlaybackLink16BVSessionManagerC13playbackTokenSSSgvg",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updatePlaybackToken",
+            "printedName": "updatePlaybackToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC19updatePlaybackTokenyySSSgF",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC19updatePlaybackTokenyySSSgF",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getResourceInfo",
+            "printedName": "getResourceInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContentMetadata",
+                "printedName": "BVPlaybackLink.ContentMetadata",
+                "usr": "s:14BVPlaybackLink15ContentMetadataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC15getResourceInfoAA15ContentMetadataVyYaKF",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC15getResourceInfoAA15ContentMetadataVyYaKF",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startPlaybackSession",
+            "printedName": "startPlaybackSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC20startPlaybackSessionyyYaKF",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC20startPlaybackSessionyyYaKF",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endPlaybackSession",
+            "printedName": "endPlaybackSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC18endPlaybackSessionyyYaKF",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC18endPlaybackSessionyyYaKF",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "release",
+            "printedName": "release()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC7releaseyyF",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC7releaseyyF",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionListener",
+                "printedName": "any BVPlaybackLink.BVSessionListener",
+                "usr": "s:14BVPlaybackLink17BVSessionListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC3add8listeneryAA0C8Listener_p_tF",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC3add8listeneryAA0C8Listener_p_tF",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionListener",
+                "printedName": "any BVPlaybackLink.BVSessionListener",
+                "usr": "s:14BVPlaybackLink17BVSessionListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink16BVSessionManagerC6remove8listeneryAA0C8Listener_p_tF",
+            "mangledName": "$s14BVPlaybackLink16BVSessionManagerC6remove8listeneryAA0C8Listener_p_tF",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14BVPlaybackLink16BVSessionManagerC",
+        "mangledName": "$s14BVPlaybackLink16BVSessionManagerC",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVSessionEvent",
+        "printedName": "BVSessionEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink14BVSessionEventC9timestampSdvp",
+            "mangledName": "$s14BVPlaybackLink14BVSessionEventC9timestampSdvp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink14BVSessionEventC9timestampSdvg",
+                "mangledName": "$s14BVPlaybackLink14BVSessionEventC9timestampSdvg",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BVEventName",
+                "printedName": "BVPlaybackLink.BVEventName",
+                "usr": "s:14BVPlaybackLink11BVEventNameO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink14BVSessionEventC4nameAA11BVEventNameOvp",
+            "mangledName": "$s14BVPlaybackLink14BVSessionEventC4nameAA11BVEventNameOvp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVEventName",
+                    "printedName": "BVPlaybackLink.BVEventName",
+                    "usr": "s:14BVPlaybackLink11BVEventNameO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink14BVSessionEventC4nameAA11BVEventNameOvg",
+                "mangledName": "$s14BVPlaybackLink14BVSessionEventC4nameAA11BVEventNameOvg",
+                "moduleName": "BVPlaybackLink",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14BVPlaybackLink14BVSessionEventC",
+        "mangledName": "$s14BVPlaybackLink14BVSessionEventC",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BVEvent",
+            "printedName": "BVEvent",
+            "usr": "s:14BVPlaybackLink7BVEventP",
+            "mangledName": "$s14BVPlaybackLink7BVEventP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVSessionErrorEvent",
+        "printedName": "BVSessionErrorEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BVEventName",
+                "printedName": "BVPlaybackLink.BVEventName",
+                "usr": "s:14BVPlaybackLink11BVEventNameO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink19BVSessionErrorEventC4nameAA11BVEventNameOvp",
+            "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC4nameAA11BVEventNameOvp",
+            "moduleName": "BVPlaybackLink",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVEventName",
+                    "printedName": "BVPlaybackLink.BVEventName",
+                    "usr": "s:14BVPlaybackLink11BVEventNameO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC4nameAA11BVEventNameOvg",
+                "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC4nameAA11BVEventNameOvg",
+                "moduleName": "BVPlaybackLink",
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink19BVSessionErrorEventC5errors0D0_pSgvp",
+            "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC5errors0D0_pSgvp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC5errors0D0_pSgvg",
+                "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC5errors0D0_pSgvg",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC5errors0D0_pSgvs",
+                "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC5errors0D0_pSgvs",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC5errors0D0_pSgvM",
+                "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC5errors0D0_pSgvM",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink19BVSessionErrorEventC9errorCodeSiSgvp",
+            "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC9errorCodeSiSgvp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC9errorCodeSiSgvg",
+                "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC9errorCodeSiSgvg",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC9errorCodeSiSgvs",
+                "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC9errorCodeSiSgvs",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC9errorCodeSiSgvM",
+                "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC9errorCodeSiSgvM",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink19BVSessionErrorEventC7messageSSSgvp",
+            "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC7messageSSSgvp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC7messageSSSgvg",
+                "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC7messageSSSgvg",
+                "moduleName": "BVPlaybackLink",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14BVPlaybackLink19BVSessionErrorEventC",
+        "mangledName": "$s14BVPlaybackLink19BVSessionErrorEventC",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:14BVPlaybackLink14BVSessionEventC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "BVPlaybackLink.BVSessionEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BVEvent",
+            "printedName": "BVEvent",
+            "usr": "s:14BVPlaybackLink7BVEventP",
+            "mangledName": "$s14BVPlaybackLink7BVEventP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVSessionStatusEvent",
+        "printedName": "BVSessionStatusEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionStatus",
+                "printedName": "BVPlaybackLink.BVSessionStatus",
+                "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink20BVSessionStatusEventC6statusAA0cD0Ovp",
+            "mangledName": "$s14BVPlaybackLink20BVSessionStatusEventC6statusAA0cD0Ovp",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVSessionStatus",
+                    "printedName": "BVPlaybackLink.BVSessionStatus",
+                    "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink20BVSessionStatusEventC6statusAA0cD0Ovg",
+                "mangledName": "$s14BVPlaybackLink20BVSessionStatusEventC6statusAA0cD0Ovg",
+                "moduleName": "BVPlaybackLink",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BVEventName",
+                "printedName": "BVPlaybackLink.BVEventName",
+                "usr": "s:14BVPlaybackLink11BVEventNameO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BVPlaybackLink20BVSessionStatusEventC4nameAA11BVEventNameOvp",
+            "mangledName": "$s14BVPlaybackLink20BVSessionStatusEventC4nameAA11BVEventNameOvp",
+            "moduleName": "BVPlaybackLink",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BVEventName",
+                    "printedName": "BVPlaybackLink.BVEventName",
+                    "usr": "s:14BVPlaybackLink11BVEventNameO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BVPlaybackLink20BVSessionStatusEventC4nameAA11BVEventNameOvg",
+                "mangledName": "$s14BVPlaybackLink20BVSessionStatusEventC4nameAA11BVEventNameOvg",
+                "moduleName": "BVPlaybackLink",
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionStatusEvent",
+                "printedName": "BVPlaybackLink.BVSessionStatusEvent",
+                "usr": "s:14BVPlaybackLink20BVSessionStatusEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionStatus",
+                "printedName": "BVPlaybackLink.BVSessionStatus",
+                "usr": "s:14BVPlaybackLink15BVSessionStatusO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14BVPlaybackLink20BVSessionStatusEventC6statusAcA0cD0O_tcfc",
+            "mangledName": "$s14BVPlaybackLink20BVSessionStatusEventC6statusAcA0cD0O_tcfc",
+            "moduleName": "BVPlaybackLink",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14BVPlaybackLink20BVSessionStatusEventC",
+        "mangledName": "$s14BVPlaybackLink20BVSessionStatusEventC",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:14BVPlaybackLink14BVSessionEventC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "BVPlaybackLink.BVSessionEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BVEvent",
+            "printedName": "BVEvent",
+            "usr": "s:14BVPlaybackLink7BVEventP",
+            "mangledName": "$s14BVPlaybackLink7BVEventP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVPlaybackServerError",
+        "printedName": "BVPlaybackServerError",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BVPlaybackServerError",
+                "printedName": "BVPlaybackLink.BVPlaybackServerError",
+                "usr": "s:14BVPlaybackLink0A11ServerErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14BVPlaybackLink0A11ServerErrorV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14BVPlaybackLink0A11ServerErrorV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "BVPlaybackLink",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14BVPlaybackLink0A11ServerErrorV",
+        "mangledName": "$s14BVPlaybackLink0A11ServerErrorV",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BVSessionListener",
+        "printedName": "BVSessionListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sessionManager",
+            "printedName": "sessionManager(_:didReceiveErrorEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionManager",
+                "printedName": "BVPlaybackLink.BVSessionManager",
+                "usr": "s:14BVPlaybackLink16BVSessionManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionErrorEvent",
+                "printedName": "BVPlaybackLink.BVSessionErrorEvent",
+                "usr": "s:14BVPlaybackLink19BVSessionErrorEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink17BVSessionListenerP14sessionManager_20didReceiveErrorEventyAA0cF0C_AA0ciJ0CtF",
+            "mangledName": "$s14BVPlaybackLink17BVSessionListenerP14sessionManager_20didReceiveErrorEventyAA0cF0C_AA0ciJ0CtF",
+            "moduleName": "BVPlaybackLink",
+            "genericSig": "<τ_0_0 where τ_0_0 : BVPlaybackLink.BVSessionListener>",
+            "sugared_genericSig": "<Self where Self : BVPlaybackLink.BVSessionListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionManager",
+            "printedName": "sessionManager(_:statusEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionManager",
+                "printedName": "BVPlaybackLink.BVSessionManager",
+                "usr": "s:14BVPlaybackLink16BVSessionManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BVSessionStatusEvent",
+                "printedName": "BVPlaybackLink.BVSessionStatusEvent",
+                "usr": "s:14BVPlaybackLink20BVSessionStatusEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BVPlaybackLink17BVSessionListenerP14sessionManager_11statusEventyAA0cF0C_AA0c6StatusH0CtF",
+            "mangledName": "$s14BVPlaybackLink17BVSessionListenerP14sessionManager_11statusEventyAA0cF0C_AA0c6StatusH0CtF",
+            "moduleName": "BVPlaybackLink",
+            "genericSig": "<τ_0_0 where τ_0_0 : BVPlaybackLink.BVSessionListener>",
+            "sugared_genericSig": "<Self where Self : BVPlaybackLink.BVSessionListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14BVPlaybackLink17BVSessionListenerP",
+        "mangledName": "$s14BVPlaybackLink17BVSessionListenerP",
+        "moduleName": "BVPlaybackLink",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BVPlaybackLink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/EndPlaybackSessionRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 21,
+      "value": "\"drm_server_endpoint\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/EndPlaybackSessionRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 21,
+      "value": "\"drm_server_endpoint\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/EndPlaybackSessionRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 25,
+      "value": "\"BVPlaybackLink.EndPlaybackSessionRequest\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/RefreshPlaybackSessionRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 29,
+      "value": "\"BVPlaybackLink.RefreshPlaybackSessionRequest\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVSessionManager.swift",
+      "kind": "Array",
+      "offset": 511,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 611,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 672,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 832,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVSessionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 19,
+      "value": "\"BVPlaybackLink.BVSessionErrorEvent\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVSessionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 20,
+      "value": "\"BVPlaybackLink.BVSessionStatusEvent\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 17,
+      "value": "\"cover_image_url\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 19,
+      "value": "\"default_image_url\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 17,
+      "value": "\"cover_image_url\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 19,
+      "value": "\"default_image_url\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 10,
+      "value": "\"is_ended\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 16,
+      "value": "\"player_setting\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 11,
+      "value": "\"tenant_id\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 19,
+      "value": "\"assoc_resource_id\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1210,
+      "length": 21,
+      "value": "\"assoc_resource_type\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1267,
+      "length": 23,
+      "value": "\"last_watched_position\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 10,
+      "value": "\"is_ended\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 16,
+      "value": "\"player_setting\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 11,
+      "value": "\"tenant_id\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 19,
+      "value": "\"assoc_resource_id\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1210,
+      "length": 21,
+      "value": "\"assoc_resource_type\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1267,
+      "length": 23,
+      "value": "\"last_watched_position\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/ContentMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 22,
+      "value": "\"BVPlaybackLink.ContentMetadataRequest\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/StartPlaybackSessionRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 21,
+      "value": "\"drm_server_endpoint\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/StartPlaybackSessionRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 21,
+      "value": "\"drm_server_endpoint\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/StartPlaybackSessionRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 27,
+      "value": "\"BVPlaybackLink.StartPlaybackSessionRequest\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/Network\/BVNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 2820,
+      "length": 7,
+      "value": "\"@type\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/Network\/BVNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 2820,
+      "length": 7,
+      "value": "\"@type\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/Network\/BVNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 3033,
+      "length": 15,
+      "value": "\"error_message\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/Network\/BVNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 3033,
+      "length": 15,
+      "value": "\"error_message\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 11,
+      "value": "\"\/contents\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 11,
+      "value": "\"\/sessions\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 11,
+      "value": "\"\/contents\""
+    },
+    {
+      "filePath": "\/Users\/sunny\/Workspace\/bv-playback-link\/BVPlaybackLink\/BVAPI\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 11,
+      "value": "\"\/sessions\""
+    }
+  ]
+}
