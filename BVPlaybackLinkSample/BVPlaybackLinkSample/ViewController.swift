@@ -78,9 +78,9 @@ class PlaybackViewController: UIViewController {
             
             if let view = playerView {
                 view.autoresizingMask = [.flexibleHeight, .flexibleWidth]
-                view.frame = view.bounds
-                view.add(listener: self)
+                view.frame = self.view.bounds
                 self.view.addSubview(view)
+                view.add(listener: self)
             }
             
             // Create source config
