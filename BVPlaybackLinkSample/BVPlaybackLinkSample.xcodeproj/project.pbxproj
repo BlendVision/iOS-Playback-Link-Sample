@@ -18,6 +18,7 @@
 		A30BCD1C2CB19C8000BCEBE8 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BCD1B2CB19C8000BCEBE8 /* Preference.swift */; };
 		A30BCD1F2CB19EB500BCEBE8 /* BVPlaybackLink.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30BCD1D2CB19EA100BCEBE8 /* BVPlaybackLink.xcframework */; };
 		A30BCD202CB19EB500BCEBE8 /* BVPlaybackLink.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A30BCD1D2CB19EA100BCEBE8 /* BVPlaybackLink.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A30BCD262CB3B31900BCEBE8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A30BCD252CB3B31900BCEBE8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		A30BCCEC2CB1987400BCEBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30BCD1B2CB19C8000BCEBE8 /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
 		A30BCD1D2CB19EA100BCEBE8 /* BVPlaybackLink.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BVPlaybackLink.xcframework; sourceTree = "<group>"; };
+		A30BCD252CB3B31900BCEBE8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				A30BCCE92CB1987400BCEBE8 /* LaunchScreen.storyboard */,
 				A30BCCEC2CB1987400BCEBE8 /* Info.plist */,
 				A30BCD1D2CB19EA100BCEBE8 /* BVPlaybackLink.xcframework */,
+				A30BCD252CB3B31900BCEBE8 /* README.md */,
 			);
 			path = BVPlaybackLinkSample;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				A30BCCE82CB1987400BCEBE8 /* Assets.xcassets in Resources */,
 				A30BCCEB2CB1987400BCEBE8 /* Base in Resources */,
+				A30BCD262CB3B31900BCEBE8 /* README.md in Resources */,
 				A30BCCE62CB1987200BCEBE8 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
