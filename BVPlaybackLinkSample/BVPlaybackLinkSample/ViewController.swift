@@ -12,7 +12,7 @@ import BVPlaybackLink
 
 class PlaybackViewController: UIViewController {
     
-    var player: UniPlayer?
+    var player: UniPlayer!
     var playerView: UniPlayerView?
     
     // Externally set parameters
@@ -74,22 +74,25 @@ class PlaybackViewController: UIViewController {
             playerView = UniPlayerView(player: player!, frame: .zero)
             
             // Listen to player events
-            player?.add(listener: self)
+            player.add(listener: self)
             
-            playerView?.autoresizingMask = [.flexibleHeight, .flexibleWidth]
-            playerView?.frame = view.bounds
-            playerView?.add(listener: self)
+            if let view = playerView {
+                view.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+                view.frame = view.bounds
+                view.add(listener: self)
+                self.view.addSubview(view)
+            }
             
             // Create source config
             let sourceConfig = UniSourceConfig(url: streamUrl, type: .hls)
             
-            player?.load(sourceConfig: sourceConfig)
+            player.load(sourceConfig: sourceConfig)
         }
     }
     
     private func closePlayer() {
         Task {
-            player?.destroy()
+            player.destroy()
             playerView?.remove(listener: self)
             endSession()
             BVSessionManager.shared.release()
