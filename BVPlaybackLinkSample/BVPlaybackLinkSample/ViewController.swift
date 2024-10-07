@@ -64,9 +64,10 @@ class PlaybackViewController: UIViewController {
         Task {
             // Create player based on player config
             let info = try await BVSessionManager.shared.getResourceInfo()
-            var config = [String:String]()
-            config["analytics.resource_id"] = info.resourceID
-            config["analytics.resource_type"] = info.resourceType
+            let config: [String: String] = [
+                "analytics.resource_id": info.resourceID,
+                "analytics.resource_type": info.resourceType
+            ]
             player = UniPlayerFactory.create(player: playerConfig, moduleConfig: config)
             
             // Create player view and pass the player instance to it
