@@ -41,28 +41,20 @@ Throughout the playback flow, it is essential to start or end playback sessions 
 
 - **Starting a playback session**: When the player is ready, a playback session is started.
 ```swift
-private func startSession() {
-    Task {
-        do {
-            try await BVSessionManager.shared.startPlaybackSession()
-        } catch {
-            // Error
-        }
+    func player(_ player: UniPlayer, didReceiveOnReadyEvent event: any UniEvent) {
+        startSession()
     }
-}
 ```
 
 - **Ending a playback session**: When playback finishes, or the app enters the background or terminates, the session is ended.
 ```swift
-private func endSession() {
-    Task {
-        do {
-            try await BVSessionManager.shared.endPlaybackSession()
-        } catch {
-            // Error
-        }
+    func player(_ player: UniPlayer, didReceiveErrorEvent event: UniPlayerErrorEvent) {
+        endSession()
     }
-}
+    
+    func player(_ player: UniPlayer, didReceiveOnPlaybackFinishedEvent event: any UniEvent) {
+        endSession()
+    }
 ```
 
 4.  Handling Sessions in the App Lifecycle：
