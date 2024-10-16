@@ -1,5 +1,5 @@
 {
-  "originHash" : "133d26ea4cb5e30c484fa6b93f804f9066355a7c4f75944a9e178016df725b57",
+  "originHash" : "e7cecf26ee79df228d3f2e2286d36a09c94f6aaa1ed57da409111a16bb60b2dd",
   "pins" : [
     {
       "identity" : "bvplayer-ios",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "535552e34fa4067c8e60848a81a839fb2220ae04",
         "version" : "4.1.0"
+      }
+    },
+    {
+      "identity" : "ios-playback-link-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BlendVision/iOS-Playback-Link-SDK",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ce3221abf6b8aed53b888c2de63aa0c9d21c34b4"
       }
     },
     {
